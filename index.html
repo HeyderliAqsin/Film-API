@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootsrap css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="myFilm">
+        <div class="container">
+            <div class="row">
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="movie-load text-center my-5">
+        <a class="btn btn-primary" href="#">Load More</a>
+    </div>
+  
+  <!-- Modal -->
+  <div class="movie-modal modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">TMDB films</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-lg-7">
+                  <div class="movie-poster">
+                      <iframe width="100%" height="500px" src="" frameborder="0"></iframe>
+                  </div>
+              </div>
+              <div class="col-lg-5">
+                  <div class="movie-content">
+                  <h5>Movie Name</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa vero, exercitationem eveniet quidem fuga perferendis officia, odit dolorum excepturi nesciunt nobis beatae? Ipsa rem quibusdam rerum, ullam ad provident placeat!</p>
+                  <div class="text-imdb ">IMDB: <span class="btn text-warning"></span></div>
+                  <div class="genres"> 
+                      Genres: <span class="btn text-secondary"></span>
+                  </div>
+                  <div class="runtime">
+                      Duration: <span></span> min
+                  </div>
+                 <div class="popularity mt-2">
+                     Views:   <span class="btn text-muted   "></span> 
+                 </div>
+
+                  
+
+                  </div>
+              </div>
+          </div>
+
+        </div>  
+      </div>
+    </div>
+  </div>
+
+    <script src="lib/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="lib/bundle js/bootstrap.bundle.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
